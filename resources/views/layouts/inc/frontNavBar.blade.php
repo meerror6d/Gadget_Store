@@ -12,6 +12,7 @@
            <a class="nav-link px-3 active" aria-current="page" href="/">Home</a>
            <a class="nav-link  px-3 " href="{{url('category')}}">Categories</a>
            <a class="nav-link  px-3 " href="{{url('contact')}}">Contact</a>
+           <a class="nav-link  px-3 " href="{{url('blog')}}">Blog</a>
            <a class="nav-link  px-3 " href="{{url('about')}}">About</a>
         </div>
         <div class="navbar-nav ms-auto justify-content-center">

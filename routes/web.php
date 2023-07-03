@@ -48,6 +48,7 @@ Route::post('searchProduct',[FrontController::class , 'searchProducts']);
 
 Route::get('contact',[contactComplains::class ,  'index']);
 Route::post('sendMessage',[contactComplains::class ,  'submitForm']);
+Route::view('blog', 'frontend.Blog');
 Route::view('about' , 'frontend.About');
 
 

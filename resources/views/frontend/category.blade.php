@@ -14,18 +14,16 @@
 
 
                 <div class="row ">
-                    @foreach ($category as $cat)
+                    
                         <div class="col-md-4 ">
-                            <a href="{{url(asset('view-category/'.$cat->slug))}}">
                                 <div class="card-body zoom postion-relative" >
-                                    <img src="{{asset('upload/category/'.$cat->image)}}"   class="w-100 lazy rounded" height="200px"  alt="">
+                                    <img src="{{asset('upload/category/')}}"   class="w-100 lazy rounded" height="200px"  alt="HP">
                                     <div class="text-light  position-absolute top-50 start-50  translate-middle">
-                                        <h4 style="letter-spacing:3px; ">{{$cat->name}}</h4>
+                                        <h4 style="letter-spacing:3px; ">HP</h4>
                                     </div>
                                 </div>
-                            </a> 
                         </div>
-                    @endforeach
+                   
                 </div>
 
                 
